@@ -38,7 +38,6 @@ const result = parentFunction();
 
 const counterFunction  = (()=>{
   let counter = 1;
-//   print(counter);
   console.log(`initial value ${counter}`);
 
   return () => {
